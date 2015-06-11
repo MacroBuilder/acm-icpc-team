@@ -4,7 +4,7 @@ def team(all_indivs, number_of):
     maximum = max(bin(x).count('1') for x in compare)
     print maximum
     
-    count =0
+    count = 0
     for y in compare:
         if bin(y).count('1') == maximum:
             count += 1
